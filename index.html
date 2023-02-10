@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Multipage Education Website Using HTML / CSS / JavaScript</title>
+</head>
+<body>
+    <nav>
+        <div class="container nav_container navbar">
+            <a href="index.html"><h4>METZ</h4></a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#portfolio">Portfolio</a></li>
+            </ul>
+            <div class="humburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!--=================== Header Section=====================-->
+
+
+    <header>
+        <div class="container header_container">
+            <div class="header_left">
+                <h1 class="ml11" onload="typeWriter">
+                    <span class="text-wrapper">
+                      <span class="line line1"></span>
+                      <span class="letters">Hi! I'm Mark</span>
+                    </span>
+                </h1>
+                <p>
+                    FullStack Web Developer <br>
+                    & Graphic Designer <br>
+                    from Philippines
+                </p>
+                <div class="contain">
+                    <a href="course.html" class="btn1 btn-primary">Services</a>
+                    <div class="loader loader1">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="loader loader2">
+                        <div class="circle"></div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <!--=================== End of Header Section=====================-->
+
+    <section class="categories" id="skills">
+        <div class="container categories_container">
+            <div class="categories_left">
+                <h1 >Skill Categories</h1>
+                <p>
+                    During 4 months of intership as Full Stack Webdeveloper following are the skills that I have been accumulated and ongoing progress.
+                </p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories_right">
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-brands fa-html5"></i></span>
+                    <h3>83%</h3>
+                   </div>
+                    <div class="grade_container">
+                    <div class="grade-html"></div>
+                    </div>
+                    <h5>HTML (Hypertext Mark-up Language)</h5>
+                    <p>HTML is the standard markup language for creating Web pages.</p>
+                </article>
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-brands fa-css3-alt"></i></span>
+                    <h3>76%</h3>
+                </div>
+                    <div class="grade_container">
+                        <div class="grade-css"></div>
+                    </div>
+                    <h5>CSS (Cascading Style Sheet)</h5>
+                    <p>allows you to create and styling on your web pages</p>
+                </article>
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-brands fa-square-js"></i></span>
+                    <h3>67%</h3>
+                </div>
+                    <div class="grade_container">
+                        <div class="grade-js"></div>
+                    </div>
+                    <h5>JavaScript</h5>
+                    <p>LoJavaScript is a text-based programming language that allows you to create interactive elements on your web page. </p>
+                </article>
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-brands fa-php"></i></span>
+                    <h3>45%</h3>
+                </div>
+                    <div class="grade_container">
+                        <div class="grade-php"></div>
+                    </div>
+                    <h5>PHP (Hypertext Preprocessor)</h5>
+                    <p>Scripting language for backend / server side</p>
+                </article>
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-solid fa-palette"></i></span>
+                    <h3>90%</h3>
+                </div>
+                    <div class="grade_container">
+                        <div class="grade-gs"></div>
+                    </div>
+                    <h5>Graphic Design</h5>
+                    <p>The art or skill of combining text and pictures in advertisements, magazines, or books.</p>
+                </article>
+                <article class="category">
+                    <div class="grade-tittle">
+                    <span class="category_icon"><i class="fa-sharp fa-regular fa-image"></i></span>
+                    <h3>64%</h3>
+                </div>
+                    <div class="grade_container">
+                        <div class="grade-ps"></div>
+                    </div>
+                    <h5>PhotoShop</h5>
+                    <p>An image editing software for customizing photos.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!---======================= Courses Section ===================================-->
+
+    <section class="courses" id="portfolio">
+        <h2>Portfolio Projects</h2>
+        <div class="container courses_container">
+            <article class="course">
+                <div class="course_image">
+                    <img src="photo/social media.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Social Media Website UI Design</h4>
+                <p>
+                    A prototype of social media platform with theme customization and quick messaging build with HTML / CSS / JavaScript.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+                
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="photo/education.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Shcool / Education Website</h4>
+                <p>
+                    Sample website for Educational / School, cover website to show case services and information build with HTML / CSS / JavaScript.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+                
+            </article>
+
+            <article class="course">
+                <div class="course_image">
+                    <img src="photo/admin.jpg" alt="">
+                </div>
+                <div class="course_info">
+                    <h4>Responsive Admin Panel with Dashboarding</h4>
+                <p>
+                    Sample website for Admin dashboarding with databased and backend usage HTML / CSS / JavaScript / PHP / MySQL.
+                </p>
+                <a href="course.html" class="btn btn-primary">Learn More</a>
+                </div>
+                
+            </article>
+        </div>
+    </section>
+
+    <!---============== Frequently Ask Question ===========-->
+
+    <section class="faqs" id="about">
+        <h2>About Info</h2>
+        <div class="container faqs_container">
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Educational Background</h4>
+                    <p>
+                        <strong> Vocational Course :</strong><br> 
+                                            PCST (People Center for Science & Technology) <br>
+                                            Calamba City, Laguna <br>
+                                            <span style="color: yellow;"><b>Computer Hardware and Servicing NCII</b></span> <br>
+                                            <br>
+                       <strong>College Degree :  </strong><br>  
+                                            University of Batangas <br>
+                                            Batangas City <br>
+                                            <span style="color: yellow;"><b>Bachelor's Degree in Computer Engineering</b></span> <br>
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Basic info</h4>
+                    <p>
+                        <strong>Nationality :</strong>    Filipino <br>
+                        <strong>Hobby :</strong>    Netsurfing , Reading Articles <br>
+                        <strong>Other Skill :</strong>   Painting , Singing <br>
+                        <strong>Strength :</strong>   Enthusiasm , Creativity , Respectfulness <br>
+                        <strong>Weakness :</strong>  Submissive  / excessive respect on Superior
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Job Experience</h4>
+                    <p>
+                        <b>FullStack Web Developer Intern </b><br>
+                        LCT (Learn Computer Today ltd.) <br>
+                        Los Banos, Laguna <br>
+                        October 2022 ~ Present <br><br>
+
+                        <b> Sr.Process Engineering Technician </b><br>
+                        ams-OSRAM asia Inc. <br>
+                        Brgy. Milagrosa , Makiling , Calamba City <br>
+                        March 2019 ~ Present
+
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Learning Roadmap</h4>
+                    <p>
+                        <b style="color: yellow;"> HTML ----> CSS ----> JAVASCRIPT ----> JQUERY ----> PHP </b><br>----> MySQL
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Certifications</h4>
+                    <p>
+                        <b style="color: yellow;">Lean Six Sigma White Belt </b><i>(LSSWB)</i><br>
+                        <b style="color: yellow;">Lean Six Sigma Yellow Belt </b><i>(LSSYB)</i><br>
+                        <b style="color: yellow;">Programming Basic </b><i>(LCT)</i><br>
+                        <b style="color: yellow;">Graphic Design </b><i>(LCT)</i><br>
+                        <b style="color: yellow;">PhotoShop </b><i>(LCT)</i><br>
+                        <b style="color: yellow;">Python Basics</b> <i>(DICT)</i><br>
+                        <b style="color: yellow;"> Web Developers Course (HTML / CSS / JavaScript / GitHub / JQUERY) </b><i>(LCT)</i>
+                    </p>
+                </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq_icon"><i class="fa-solid fa-person-circle-plus"></i></div>
+                <div class="question_answer">
+                    <h4>Get in touch now</h4>
+                    <p>
+                    <input type="text" placeholder="Your Name"><br>
+                    <input type="email" placeholder="Your Email"><br>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="Type Mesage here...."></textarea><br>
+                    <button>Submit</button>
+                </p>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!---=================== End of Faqs ========================-->
+
+
+
+    <!-----================== Testimonials=========================-->
+
+    <section class="container testimonials_Container mySwiper">
+        <h2>Peer's & Mentor's Testimonials</h2>
+        <div class="swiper-wrapper">
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/girl1.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Dana Kim</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/boy1.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Andrew Wolf</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/girl2.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Jasmin Cruz</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/boy2.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Michael Dian Park</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/girl2.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Myca Legaspi</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+
+            <article class="testimonial swiper-slide">
+                <div class="avatar">
+                    <img src="photo/boy1.jpg" alt="">
+                </div>
+                <div class="testimonials_info">
+                    <h5>Danny Wong</h5>
+                    <small>Student</small>
+                </div>
+                <div class="testimonial_body">
+                    <p>
+                        " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi voluptatum nemo nulla quaerat, ad voluptate. "
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <footer class="footer" id="contact">
+        <div class="container footer_container">
+            <div class="footer_1">
+                <a href="index.html" class="footer_logo"><h4>METZ</h4></a>
+                <p>
+                    Calamba City , Laguna <br>
+                    4027 Philippines
+                </p>
+            </div>
+            <div class="footer_2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer_3">
+                <h4>Primacy</h4>
+                <ul class="permalinks">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer_4">
+                <h4>Contact Us</h4>
+            <p>+63 998 756 6781</p>
+            <p>Tazme343@gmail.com</p>
+            
+            <ul class="footer_socials">
+                <li>
+                    <a href="#"><img src="Photo/facebook-logo-2019.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Photo/instagram.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Photo/twitter.png" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="Photo/linkedin.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+         </div>
+         <div class="footer_copyright">
+            <small>All Rights Reserve 2023</small>
+         </div>
+        </div>
+    </footer>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        600: {
+            slidesPerView: 3
+        }
+      }
+    });
+  </script>
+<script src="Script.js"></script>
+    
+</body>
+</html>
